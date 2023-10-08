@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:dodgerblue;
+    font-family:Fredoka One;
+}
+h1{
+    text-align: center;
+    color: #FAB201;
+    font-size: 60px;
+    -webkit-text-stroke: 2px white;
+    margin: 50px;
+}
+.main-container{
+    margin: auto;
+    width: 335px;
+    display: flex;
+    flex-wrap: wrap; 
+}
+.boxes{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 15px;
+}
+h2{
+    color: white;
+    text-align: center;
+    margin: 40px;
+}
+
